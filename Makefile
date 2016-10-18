@@ -10,7 +10,7 @@ test: test-unit
 
 cov: test-cov-html
 
-travis: lint test-unit test-cov-coveralls
+travis: lint test-unit test-cov-html
 
 test-unit:
 	@echo "$(MOCHA_CMD) $(MOCHA_OPTS) $(REPORT_OPTS)"
